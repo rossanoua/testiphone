@@ -13,12 +13,13 @@ header{
   margin: 20px auto;
   width: 500px;
   height: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .form input{
-  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 5px;
+	width: 200px;
 }
 
 .form input:focus{

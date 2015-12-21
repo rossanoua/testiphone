@@ -33,17 +33,18 @@
     </header>
     <article>
       <div class="form">
-        <form action="./form.php" method="GET" name="my_form" target="./result.php" >
-          <p>Номер позиции<input type="text" name="" ="number" placeholder="Введите номер позиции"></p>
-          <p>Название<input type="text" name="" ="name" placeholder="Введите имя товара"></p>
-          <p>Модель<input type="text" name="" ="model" placeholder="Введите название модели"></p>
-          <p>Количество<input type="text" name="" ="count" placeholder="Введите количество поступившего товара"></p>
-          <p>Цвет<input type="text" name="" ="color" placeholder="Введите цвет"></p>
-          <p>Емкость батареи<input type="text" name="" ="battery_capacity" placeholder="Введите емкость батареи"></p>
-          <p>Размер дисплея<input type="text" name="" ="lcd_size" placeholder="Введите размер дисплея"></p>
-          <p>Высота<input type="text" name="" ="height" placeholder="Введите высоту устройства"></p>
-          <p>Ширина<input type="text" name="" ="width" placeholder="Введите ширину устройства"></p>
-          <p>Вес<input type="text" name="" ="weight" placeholder="Введите вес устройства"></p>
+       <!-- target="./result.php" -->
+        <form action="./php/form.php" method="POST" name="my_form" target="./php/result.php">
+          <p><input type="text" name="" ="number" placeholder="Введите номер позиции">Номер позиции</p>
+          <p><input type="text" name="" ="name" placeholder="Введите имя товара">Название</p>
+          <p><input type="text" name="" ="model" placeholder="Введите название модели">Модель</p>
+          <p><input type="text" name="" ="count" placeholder="Введите количество поступившего товара">Количество</p>
+          <p><input type="text" name="" ="color" placeholder="Введите цвет">Цвет</p>
+          <p><input type="text" name="" ="battery_capacity" placeholder="Введите емкость батареи">Емкость батареи</p>
+          <p><input type="text" name="" ="lcd_size" placeholder="Введите размер дисплея">Размер дисплея</p>
+          <p><input type="text" name="" ="height" placeholder="Введите высоту устройства">Высота</p>
+          <p><input type="text" name="" ="width" placeholder="Введите ширину устройства">Ширина</p>
+          <p><input type="text" name="" ="weight" placeholder="Введите вес устройства">Вес</p>
           <p><input type="submit" value="Отправить хренову форму!!!"></p>
         </form>
       </div>
